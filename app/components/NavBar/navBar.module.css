@@ -3,16 +3,28 @@
     padding-top:2.5rem;
     padding-left:1.5rem;
     background:var(--black-bg);
-    height:100%;
-
+    border-top-right-radius: 20px;
+    height:100vh;
 }
 
 .nav_bar_item{
     display:flex;
     align-items: center;
+    margin:2rem 0;
     color:var(--clr-dark-gray);
     gap:8px;
+    cursor: pointer;
 }
 .nav_bar_item svg{
     stroke:var(--clr-dark-gray);
+}
+
+.active_link{
+    color:var(--clr-white);
+    width: 80%;
+    border-radius: 10px;
+    
+}
+.active_link.nav_bar_item svg{
+    stroke: var(--clr-white);
 }
