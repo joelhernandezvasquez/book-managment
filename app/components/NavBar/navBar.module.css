@@ -1,5 +1,18 @@
 
 .nav_bar{
+    padding-top:2.5rem;
+    padding-left:1.5rem;
     background:var(--black-bg);
-    border:1px solid red;
+    height:100%;
+
+}
+
+.nav_bar_item{
+    display:flex;
+    align-items: center;
+    color:var(--clr-dark-gray);
+    gap:8px;
+}
+.nav_bar_item svg{
+    stroke:var(--clr-dark-gray);
 }
