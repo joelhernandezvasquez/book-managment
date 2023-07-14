@@ -30,6 +30,13 @@ a {
   color: inherit;
   text-decoration: none;
 }
+main{
+  padding-left:4rem;
+  padding-right:4rem;
+  max-width: 900px;
+ 
+ 
+}
 
 
 
