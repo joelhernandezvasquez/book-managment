@@ -6,3 +6,10 @@
     color:white;
     font-size: 2rem;
 }
+
+.book_list{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,250px));
+    margin-top: 2rem;
+   
+}

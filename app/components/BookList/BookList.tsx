@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import { getListOfBooks } from '@/services';
-import style from './bookList.module.css';
 import Book from '../Book/Book';
+import style from './bookList.module.css';
 
 const BookList = async () => {
   const bookList = await getListOfBooks();
