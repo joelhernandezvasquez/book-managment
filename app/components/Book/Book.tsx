@@ -10,14 +10,14 @@ interface Prop {
 
 const Book:FC<Prop> = ({book}) => {
   return (
-    <li>
-      <img src={book.cover} alt=''/>
+    <li className={style.book_card}>
+      <img className={style.book_image} src={book.cover} alt=''/>
       
-      <div>
+      <div className={style.body_card}>
        <p>{book.title}</p>
-       <p>{book.author.name}</p>
+       <p className={style.author}>by {book.author.name}</p>
        <p>{book.genre}</p>
-       <button>Add to Reading List</button>
+       <button>Add to List</button>
       </div>
     </li>
   )
